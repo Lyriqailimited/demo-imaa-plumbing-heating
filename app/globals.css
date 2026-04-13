@@ -1,30 +1,3 @@
-:root {
-  --primary: #B90007;
-  --accent: #B90007;
-  --primary-dark: #9A0006;
-  --primary-light: #D4000A;
-  --foreground: #0a0a0a;
-  --background: #ffffff;
-}
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-}
+:root { --primary: #B90007; --accent: #B90007; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; }
